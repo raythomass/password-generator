@@ -17,6 +17,7 @@ var everything = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890
 var possChars = "";
 
 //Making these prompts accesible globally and then will chnage them locally
+//Tutor Help: If these are not global they are not accesible outside thhe local functions
 var lengthEnter = 0;
 var lowerPrompt = 0;
 var upperPrompt = 0;
@@ -102,6 +103,7 @@ function askSpecial(){
 }
 
 //Gets random characters based on possible characters and returns the possChar var into the index number it calculated
+//Tutor Help: return with something next to it will return the value added. return possChars[randomIndex] designates that so I can use it in finalPassword
 function getRandomCharacter(possCharacters) {
   var randomIndex = Math.floor(Math.random()*possCharacters.length) 
   return possChars[randomIndex]
