@@ -6,7 +6,7 @@ This password generator is used to give a random password containing criteria gi
 
 ## Installation
 
-No installation required. Only a link to the webiste is needed.
+No installation is required. Only a link to the website is needed.
 
 ## Usage
 
@@ -22,7 +22,3 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 Tutoring Session Notes are included in the JS File
 
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
